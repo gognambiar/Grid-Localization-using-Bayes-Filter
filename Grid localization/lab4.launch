@@ -1,0 +1,5 @@
+
+<launch>
+	<node name="Gridlocal" pkg="lab4" type="Gridlocal.py" args="$(find lab4)"/>
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find lab4)/scripts/default.rviz"/>
+</launch>

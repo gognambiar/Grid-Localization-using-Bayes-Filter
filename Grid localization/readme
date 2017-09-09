@@ -1,0 +1,4 @@
+Implmentaion of Grid Localization using Bayes Filter. The algorithm finds the probability of the robot being in each cell
+and draws a trajectory on the map.
+
+Implemented in Python.
